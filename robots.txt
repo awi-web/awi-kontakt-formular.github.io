@@ -1,0 +1,13 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://awi-website.com/sitemap.xml
+
+# Crawl-delay (optional, 1 second)
+Crawl-delay: 1
+
+# Block unnecessary paths
+Disallow: /wp-admin/
+Disallow: /wp-includes/
+Disallow: /*.php$
